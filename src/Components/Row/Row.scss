@@ -1,0 +1,15 @@
+
+.row{
+    padding: 1rem;
+    background-color: black;
+    >h1{
+       font-weight: 400;
+       margin: 0.3rem;
+    }
+  >div{
+    display: flex;
+    // justify-content: space-evenly;
+    overflow-x: auto;
+  }
+}
+

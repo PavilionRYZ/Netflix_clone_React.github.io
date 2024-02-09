@@ -1,0 +1,39 @@
+
+$bgc:black; //user this color as a veriable
+
+.header{
+    height: 80px;
+    background-color: $bgc;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    > img{
+        height: 100%;
+    }
+
+    >div{
+        // border: 1px solid red;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-left: 4vmax;
+      > a{
+        margin: 2vmax;
+        font-size: 1.3rem;
+        font-weight: 300;
+      }
+    }
+
+    >svg{
+        color:white;
+        font-size: 1.6rem;
+        cursor: pointer;
+        margin-right: 1rem;
+        &:hover{
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+} 
